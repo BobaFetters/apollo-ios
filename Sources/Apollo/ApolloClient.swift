@@ -30,6 +30,8 @@ public typealias GraphQLResultHandler<Data: RootSelectionSet> = (Result<GraphQLR
 /// The `ApolloClient` class implements the core API for Apollo by conforming to `ApolloClientProtocol`.
 public class ApolloClient {
 
+    // SAMPLE FORKED REPO CHANGE
+    
   let networkTransport: NetworkTransport
 
   public let store: ApolloStore
