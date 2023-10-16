@@ -31,6 +31,7 @@ public typealias GraphQLResultHandler<Data: RootSelectionSet> = (Result<GraphQLR
 public class ApolloClient {
 
     // SAMPLE FORKED REPO CHANGE
+    // SECOND SAMPLE CHANGE
     
   let networkTransport: NetworkTransport
 
